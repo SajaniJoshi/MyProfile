@@ -33,7 +33,7 @@ A modern, responsive portfolio website built with Vue.js 3 and Vuetify, featurin
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd vueProject
+   cd MyProfile
    ```
 
 2. **Install dependencies**
