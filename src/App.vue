@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import NavBar from './components/NavBar.vue'
+import GradioChatInterface from './components/GradioChatInterface.vue'
 
 // Reactive data
 const greeting = ref('Hello!')
@@ -39,22 +40,25 @@ onMounted(() => {
     <v-main>
       <v-container fluid class="pa-0">
         <!-- Main content area -->
-        <div class="text-center pa-16">
+        <div class="text-center pa-8">
           <h1 class="text-h2 font-weight-bold text-dark mb-4">
             {{ greeting }}
           </h1>
           <p class="text-h6 text-grey-darken-1 mb-2">
             {{ welcomeMessage }}
           </p>
-          <p class="text-body-1 text-grey-darken-2">
+          <p class="text-body-1 text-grey-darken-2 mb-6">
             {{ subtitle }}
           </p>
-          <p class="text-caption text-grey mt-4">
+          <p class="text-caption text-grey mb-8">
             Current time: {{ currentTime }}
           </p>
         </div>
       </v-container>
     </v-main>
+
+    <!-- Gradio Chat Interface -->
+    <GradioChatInterface />
   </v-app>
 </template>
 
