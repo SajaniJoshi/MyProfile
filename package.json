@@ -12,7 +12,9 @@
     "lint": "run-s lint:*"
   },
   "dependencies": {
-    "vue": "^3.5.17"
+    "@mdi/font": "^7.4.47",
+    "vue": "^3.5.17",
+    "vuetify": "^3.9.0-beta.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
