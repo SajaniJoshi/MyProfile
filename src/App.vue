@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import NavBar from './components/NavBar.vue'
 import GradioChatInterface from './components/GradioChatInterface.vue'

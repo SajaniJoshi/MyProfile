@@ -5,3 +5,6 @@
     />
   </svg>
 </template>
+
+<script lang="ts">
+</script>

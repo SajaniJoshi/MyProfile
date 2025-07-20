@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 // No additional logic needed for direct iframe embed
 </script>
 

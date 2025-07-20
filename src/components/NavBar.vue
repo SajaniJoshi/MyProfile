@@ -47,7 +47,7 @@
   </v-app-bar>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, computed } from 'vue'
 
 // Reactive data
@@ -78,7 +78,7 @@ const socialLinks = ref([
 ])
 
 // Methods
-const setActiveSection = (section) => {
+const setActiveSection = (section: string) => {
   activeSection.value = section
   console.log(`Active section changed to: ${section}`)
 }

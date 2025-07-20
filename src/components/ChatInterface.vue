@@ -72,7 +72,7 @@
   </v-card>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, nextTick, onMounted } from 'vue'
 
 // Reactive data
